@@ -5,7 +5,7 @@ import { QuestionsComponent } from './questions/questions.component';
 
 
 const routes: Routes = [
-  { path: 'questions', component: QuestionsComponent },
+  { path: 'questions/:q', component: QuestionsComponent },
   { path: 'answer', component: AnswerComponent },
 ];
 
