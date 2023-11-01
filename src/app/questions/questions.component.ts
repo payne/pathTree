@@ -10,6 +10,10 @@ import { switchMap } from "rxjs";
 })
 export class QuestionsComponent implements OnInit{
   q: string | null = '';
+  questions = [
+    {id: 1, title: "What is your name?"},
+    {id:2, title:"What is your quest?"},
+    {id:3, title:"What is your favorite color?"}];
  constructor(private route: ActivatedRoute ) {
  }
 

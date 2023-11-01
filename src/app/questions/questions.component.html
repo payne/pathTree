@@ -1,2 +1,7 @@
 <p>questions works!</p>
 <h2>q={{q}}</h2>
+<ol>
+  <li *ngFor="let q of questions">
+    <a href="/questions/{{q.id}}">{{q.title}}</a>
+  </li>
+</ol>
